@@ -8,10 +8,28 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Fonts/Scenes/Menu.unity
+    guid: b5b73d04477f64e058e2577824ee4654
   - enabled: 1
     path: Assets/Scenes/Menu.unity
-    guid: b5b73d04477f64e058e2577824ee4654
+    guid: fc656e6d06145dc4e9bcfbbe56f7ec0f
   - enabled: 1
     path: Assets/Scenes/LevelMenu.unity
     guid: 205e49c5eef024e979c48d026c365511
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 43085a88fccd90b479232dcf81c632ff
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 99c95c0600a15d047b079574967b2160
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 8b77b503f578c1c43b1ecd6a6bef0b70
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: 4c106dd54f2284a38a926d9c76f7a618
+  - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: 10fc46b89630049b19a1d9d4e9780c46
   m_configObjects: {}
