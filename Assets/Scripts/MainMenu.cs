@@ -19,4 +19,17 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void LoadLevelOne()
+    {
+        SceneManager.LoadScene("Level 1");
+    }
+    public void LoadLevelTwo()
+    {
+        SceneManager.LoadScene("Level 2");
+    }
+    public void LoadLevelThree()
+    {
+        SceneManager.LoadScene("Level 3");
+    }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="36" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="41">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="36" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="70">
  <tileset firstgid="1" source="Terrain.tsx"/>
  <tileset firstgid="243" source="Obstacles..tsx"/>
  <tileset firstgid="250" source="BG..tsx"/>
@@ -80,5 +80,49 @@
   <object id="38" gid="244" x="352.125" y="124.625" width="8" height="8"/>
   <object id="39" gid="244" x="352.125" y="120.75" width="8" height="8"/>
   <object id="40" gid="244" x="352.125" y="117.375" width="8" height="8"/>
+ </objectgroup>
+ <objectgroup id="7" name="Colliders">
+  <object id="56" x="560.5" y="15">
+   <polyline points="0,0 -0.5,193 -16.5,193 -16.5,289 15.5,289 15.5,1"/>
+  </object>
+  <object id="57" x="544" y="304">
+   <polyline points="0,0 -512,0 -512,-16 -528,-16"/>
+  </object>
+  <object id="58" x="16" y="288">
+   <polyline points="0,0 0,-80 16,-80 16,-96 48,-96 48,-112 64,-112 64,-144 0,-144 0,-272"/>
+  </object>
+  <object id="59" x="16" y="96">
+   <polyline points="0,0 32,0"/>
+  </object>
+  <object id="60" x="96" y="64">
+   <polyline points="0,0 0,48 64,48 64,0 0,0"/>
+  </object>
+  <object id="61" x="16" y="16">
+   <polyline points="0,0 192,0 192,16 208,16 208,32 224,32 224,48 256,48 256,32 272,32 272,16 304,16 304,0 544,0"/>
+  </object>
+  <object id="62" x="320" y="64">
+   <polygon points="0,0 0,48 80,48 80,32 96,32 96,16 48,16 48,0"/>
+  </object>
+  <object id="63" x="454.5" y="139">
+   <polyline points="0,0 -20.5,-11.5 25.5,-11 25.5,37 -38.5,37 -38.5,53 -70.5,53 -70.5,21 -22.5,21 -22.5,-11"/>
+  </object>
+  <object id="64" x="480" y="160">
+   <polyline points="0,0 32,0"/>
+  </object>
+  <object id="65" x="544" y="208">
+   <polyline points="0,0 -48,0 -48,32 -96,32 -96,64 -160,64 -160,96"/>
+  </object>
+  <object id="66" x="352" y="304">
+   <polyline points="0,0 0,-96 -48,-96 -48,-176 -144,-176 -144,-128 -160,-128 -160,0"/>
+  </object>
+  <object id="67" x="16" y="256">
+   <polyline points="0,0 80,0 80,16 128,16 128,48"/>
+  </object>
+  <object id="68" x="128" y="224">
+   <polyline points="0,0 48,0"/>
+  </object>
+  <object id="69" x="80" y="192">
+   <polyline points="0,0 48,0"/>
+  </object>
  </objectgroup>
 </map>
