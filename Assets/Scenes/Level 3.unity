@@ -273,6 +273,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: -6064689192167435270, guid: fd2e84d19225bea47b26f7517d768108, type: 3}
+      propertyPath: m_UsedByEffector
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -5740944976732231312, guid: fd2e84d19225bea47b26f7517d768108, type: 3}
       propertyPath: m_LocalScale.x
       value: 6
@@ -353,6 +357,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: -821547912434514885, guid: fd2e84d19225bea47b26f7517d768108, type: 3}
+      propertyPath: m_UsedByEffector
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -580253968992711198, guid: fd2e84d19225bea47b26f7517d768108, type: 3}
       propertyPath: m_TagString
       value: Obstacle
@@ -408,6 +416,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 123855192}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -4670148135310317572, guid: fd2e84d19225bea47b26f7517d768108, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1396841249}
+    - targetCorrespondingSourceObject: {fileID: -3068622504393030186, guid: fd2e84d19225bea47b26f7517d768108, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1396841248}
     - targetCorrespondingSourceObject: {fileID: -3290232989474152940, guid: fd2e84d19225bea47b26f7517d768108, type: 3}
       insertIndex: -1
       addedObject: {fileID: 150060541}
@@ -801,11 +815,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472748051903908302, guid: 4496bf911d7174acea865e346fdcc431, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9915787
+      value: 10.61
       objectReference: {fileID: 0}
     - target: {fileID: 2472748051903908302, guid: 4496bf911d7174acea865e346fdcc431, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.4373083
+      value: 5.57
       objectReference: {fileID: 0}
     - target: {fileID: 2472748051903908302, guid: 4496bf911d7174acea865e346fdcc431, type: 3}
       propertyPath: m_LocalPosition.z
@@ -858,11 +872,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472748051903908302, guid: 4496bf911d7174acea865e346fdcc431, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.4605255
+      value: -12.83
       objectReference: {fileID: 0}
     - target: {fileID: 2472748051903908302, guid: 4496bf911d7174acea865e346fdcc431, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.2034254
+      value: 6.55
       objectReference: {fileID: 0}
     - target: {fileID: 2472748051903908302, guid: 4496bf911d7174acea865e346fdcc431, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1083,6 +1097,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1396841246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3068622504393030186, guid: fd2e84d19225bea47b26f7517d768108, type: 3}
+  m_PrefabInstance: {fileID: 150060524}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1396841247 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4670148135310317572, guid: fd2e84d19225bea47b26f7517d768108, type: 3}
+  m_PrefabInstance: {fileID: 150060524}
+  m_PrefabAsset: {fileID: 0}
+--- !u!251 &1396841248
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396841246}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!251 &1396841249
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396841247}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!4 &1586119940 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -7805744885833551457, guid: fd2e84d19225bea47b26f7517d768108, type: 3}
